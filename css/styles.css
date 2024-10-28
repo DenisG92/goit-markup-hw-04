@@ -371,6 +371,7 @@ button {
 .portfolio-list-item {
     width: calc ((100% - 48px) / 3);
     border-radius: 0px 0px 4px 4px;
+    
 
 }
 .portfolio-text {
@@ -390,6 +391,11 @@ button {
     position: relative;
     overflow: hidden;
 }
+
+.portfolio-list-item:hover .portfolio-text-card {
+  transform: translateY(0%);
+}
+
 
 .portfolio-text-card {
     position: absolute;
